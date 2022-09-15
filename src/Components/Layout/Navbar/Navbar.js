@@ -15,8 +15,8 @@ const Navbar = () => {
       <div className="navv">
         <div className="pageLogo">
           <h4 className="plogo">
-            <Link className="lier " to="/">
-              <SiShowpad className="icon" /> bingewatch
+            <Link className="logoer" to="/">
+              <SiShowpad className="icon" /> .bingewatch
             </Link>
           </h4>
         </div>

@@ -34,8 +34,8 @@
 
 .btn {
   border: none;
-  color: white;
-  background-color: blue;
+  color: rgb(0, 0, 0);
+  background-color: #F9E426;
   padding: 10px 30px;
   width: 100%;
   margin: 5px 0;
@@ -43,13 +43,9 @@
   font-weight: 600;
   border-radius: 5px;
 }
-.btn :hover{
-    background-color: #FFC727;
-    
-}
 
 .second-btn {
-  background-color: #b2b3ff;
+  background-color: #eeeeee;
   color: black;
 }
 @media screen and (min-width: 1020px) {
