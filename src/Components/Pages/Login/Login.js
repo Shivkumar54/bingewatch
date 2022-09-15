@@ -1,5 +1,5 @@
 import React from "react"
-import LoginLogo from "../../assets/login.svg"
+import LoginLogo from "../../assets/profile.svg"
 import "./login.css"
 const Login = () => {
   return (
@@ -12,9 +12,9 @@ const Login = () => {
           {/* for Login  */}
           <form action="">
             <h2 className="logHeading">hello User</h2>
-            <input type="text" placeholder="Username" />
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
+            <input className="lInput" type="text" placeholder="Username" />
+            <input className="lInput" type="email" placeholder="Email" />
+            <input className="lInput" type="password" placeholder="Password" />
             <button className="login-btn">Login</button>
           </form>
           {/* for Login  */}

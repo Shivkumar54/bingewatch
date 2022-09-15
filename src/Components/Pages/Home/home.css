@@ -2,8 +2,124 @@
   margin-top: 60px;
 }
 
+.homeContent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+.homeImage {
+  width: 100%;
+}
+.heroimg {
+  width: 80%;
+}
+.homeText {
+  width: 100%;
+}
+.homeHeading {
+  font-size: 60px;
+  font-weight: 800;
+  color: #f9e426;
+}
+.homepara {
+  font-size: 18px;
+}
+
+.homebtn {
+  background-color: #f9e426;
+  padding: 8px 45px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.moviesdesc {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 60vh;
+  gap: 50px;
+}
+.tvdesc {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  gap: 50px;
+}
+.moviepic {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hImg {
+  width: 50%;
+}
+.hIimg {
+  width: 100%;
+}
+
+.moviedesc {
+  width: 100%;
+  height: 100vh;
+}
+.moviedes {
+  width: 100%;
+}
+.tvdes {
+  width: 100%;
+}
+
+.hText {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.hletter {
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+
 @media screen and (max-width: 1020px) {
   .defaultHeader {
-  margin-top: 0px;
-}
+    margin-top: 0px;
+  }
+  .homeContent {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .homeHeading {
+    font-size: 50px;
+    font-weight: 800;
+  }
+  .heroimg {
+    width: 100%;
+  }
+  .homebtn {
+    background-color: #f9e426;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .moviesdesc,
+  .tvdesc {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
 }

@@ -4,23 +4,24 @@
 form {
   text-align: center;
 }
-input {
+.lInput {
   margin: auto;
   width: 80%;
   padding: 5px 20px;
   border: 2px solid white;
+  color: white;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
   border-radius: 5px;
-  background-color:transparent
+  background-color: transparent;
 }
 
 .login-btn {
   margin: auto;
-  background-color: #03037d;
+  background-color: #f9e426;
   border: none;
-  color: white;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,6 +38,20 @@ input {
   display: none;
 }
 
+.loginImage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.loginImg {
+  width: 50%;
+  margin: auto;
+}
+
 @media screen and (min-width: 1020px) {
   .loginrooter {
     display: flex;
@@ -47,8 +62,11 @@ input {
     height: 90vh;
   }
   .loginImage {
-    width: 70%;
+    width: 100%;
+    display: flex;
     align-items: center;
+    margin: auto;
+    justify-content: center;
   }
   .form {
     width: 100%;
@@ -58,21 +76,22 @@ input {
     margin: auto;
   }
   .loginImg {
-    width: 100%;
+    width: 50%;
   }
+
   .logHeading {
     display: block;
     font-weight: 700;
     color: #ffffff;
   }
-  input {
-  margin: auto;
-  width: 80%;
-  padding: 10px 30px;
-  border: 2px solid #ffffff;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
+  .lInput {
+    margin: auto;
+    width: 80%;
+    padding: 10px 30px;
+    border: 2px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
 }
