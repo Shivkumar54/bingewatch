@@ -70,7 +70,12 @@ const Home = () => {
         </div>
         <div className="subtext">
           <h2 className="hText">Subscribe to News letter.</h2>
-          <input type="email" placeholder="Subscribe to newsLetter " className="hletter" />
+          <input
+            type="email"
+            placeholder="Subscribe to newsLetter "
+            className="hletter"
+          />
+          <button className="homebtn">Subscribe</button>
         </div>
       </div>
 
