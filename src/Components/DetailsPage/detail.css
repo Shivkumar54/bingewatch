@@ -1,0 +1,86 @@
+.imagerLoader {
+  margin-top: 0px;
+  height: auto;
+  margin-bottom: 70px;
+}
+
+.posterImage {
+  width: 100%;
+  height: 80vh;
+}
+
+.rootPoster {
+  width: 100%;
+  height: 100%;
+}
+
+.contentLoader {
+  margin-top: 15px;
+}
+
+.titleCard {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.release {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.secondary {
+  color: aliceblue;
+}
+
+.btn {
+  border: none;
+  color: white;
+  background-color: blue;
+  padding: 10px 30px;
+  width: 100%;
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.btn :hover{
+    background-color: #FFC727;
+    
+}
+
+.second-btn {
+  background-color: #b2b3ff;
+  color: black;
+}
+@media screen and (min-width: 1020px) {
+  .contentHolder {
+    padding: 0 100px;
+  }
+
+  .imagerLoader {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+  }
+  .posterImage {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rootPoster {
+    width: 380px;
+    height: 100%;
+  }
+  .contentLoader {
+    width: 100%;
+    margin-top: 0;
+  }
+  .btngrp {
+    display: flex;
+    gap: 20px;
+  }
+}

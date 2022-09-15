@@ -1,0 +1,9 @@
+.defaultHeader {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 1020px) {
+  .defaultHeader {
+  margin-top: 0px;
+}
+}

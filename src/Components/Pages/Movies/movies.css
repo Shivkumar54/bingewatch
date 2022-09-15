@@ -1,0 +1,34 @@
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+
+.imagr {
+  width: 100%;
+  height: 400px;
+  padding: 5px;
+}
+
+.banner {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .imagr {
+    width: 100%;
+    height: 170px;
+    padding: 5px;
+  }
+
+  .banner {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+}
