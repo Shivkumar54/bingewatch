@@ -34,7 +34,7 @@ const Home = () => {
             <img src={Movies} alt="" className="hImg" />
           </div>
           <div className="moviedes">
-            <h2 className="hText">Best of All Time Movies </h2>
+            <h2 className="hText">Best of All Time Movies. </h2>
             <p>
               Over 100+ of Movies streaming online do watch in single click and
               premium contents.
@@ -50,7 +50,7 @@ const Home = () => {
             <img src={TVShow} alt="" className="hIimg" />
           </div>
           <div className="tvdes">
-            <h2 className="hText">Watch your Favorite TV Shows </h2>
+            <h2 className="hText">Watch your Favorite TV Shows. </h2>
             <p>
               The TV shows you like and the shows you are looking for just in a
               single click with a premium contents{" "}
@@ -69,7 +69,7 @@ const Home = () => {
           <img src={News} alt="" className="hIimg" />
         </div>
         <div className="subtext">
-          <h2 className="hText">Subscribe to News letter</h2>
+          <h2 className="hText">Subscribe to News letter.</h2>
           <input type="email" placeholder="Subscribe to newsLetter " className="hletter" />
         </div>
       </div>

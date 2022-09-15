@@ -8,6 +8,7 @@ import Home from "./Components/Pages/Home/Home"
 import Login from "./Components/Pages/Login/Login"
 import Details from "./Components/DetailsPage/Details"
 import TVDetail from "./Components/TVDetailPage/TVDetail"
+import Footer from "./Components/Layout/Footer/Footer"
 
 axios.defaults.baseURL = "https://api.themoviedb.org/3"
 axios.defaults.params = {}
@@ -26,6 +27,7 @@ function App() {
           <Route path="/tvdetails/:id" element={<TVDetail />} />
         </Route>
       </Routes>
+      <Footer />
     </div>
   )
 }

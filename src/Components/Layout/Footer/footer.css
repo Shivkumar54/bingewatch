@@ -1,0 +1,50 @@
+.footer {
+  display: block;
+  width: 100%;
+  height: 30vh;
+  margin-top: 150px;
+  padding: 0 30px;
+}
+.divver {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.div {
+  width: 100%;
+}
+.fheading {
+  color: #f9e426;
+  font-weight: 800;
+}
+.fpara {
+  font-size: 12px;
+}
+
+.fler {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fnames {
+  font-weight: 700;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.icon{
+    color: #ffffff;
+}
+.icon:hover{
+    color: #f9e426;
+}
+
+@media (max-width: 1020px) {
+  .footer {
+    display: none;
+  }
+}
