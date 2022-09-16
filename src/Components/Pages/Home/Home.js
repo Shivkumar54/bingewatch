@@ -1,29 +1,33 @@
 import React from "react"
 import "./home.css"
-import HeroImg from "../../assets/hero.svg"
 import Movies from "../../assets/movie.svg"
 import TVShow from "../../assets/tvshow.svg"
 import News from "../../assets/news.svg"
+import Icon from "../../assets/Icon.png"
 import { Link } from "react-router-dom"
+
 const Home = () => {
   return (
     <div className="defaultHeader">
-      <div className="homeContent container">
-        <div className="homeImage">
-          <img src={HeroImg} alt="" className="heroimg" />
+      <div className="heroBanner container">
+        <div className="image">
+          <img src={Icon} alt="HeroBanner" className="Himg" />
         </div>
-        <div className="homeText">
-          <h1 className="homeHeading">.bingewatch</h1>
-          <p className="homepara">
-            Watch your favorite movies and tv shows in one site without any ad
-            interuption and get access to world premiers shows and movies within
-            a single click{" "}
+        <div className="contents">
+          <p className="hContent">
+            Watch your favorite movies and tv shows on one site without any ad
+            interruption and get access to world premiers shows and movies
+            within a single click
           </p>
-          <Link to="/login">
-            <button className="homebtn">Sign in</button>
-          </Link>
+
+          <div className="hBtn">
+            <Link to="/login">
+              <button className="homebtn">Sign in</button>
+            </Link>
+          </div>
         </div>
       </div>
+
       <hr />
 
       {/* Next Items  */}
@@ -50,7 +54,7 @@ const Home = () => {
             <img src={TVShow} alt="" className="hIimg" />
           </div>
           <div className="tvdes">
-            <h2 className="hText">Watch your Favorite TV Shows. </h2>
+            <h2 className="hText">Watch your Favorite TVShows. </h2>
             <p>
               The TV shows you like and the shows you are looking for just in a
               single click with a premium contents{" "}
@@ -69,7 +73,7 @@ const Home = () => {
           <img src={News} alt="" className="hIimg" />
         </div>
         <div className="subtext">
-          <h2 className="hText">Subscribe to News letter.</h2>
+          <h2 className="hText">Subscribe to NewsLetter.</h2>
           <input
             type="email"
             placeholder="Subscribe to newsLetter "
