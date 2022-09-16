@@ -1,5 +1,5 @@
 .navv {
-   padding: 0 30px;
+  padding: 0 30px;
   display: flex;
   overflow: hidden;
   background-color: #04001e;
@@ -11,8 +11,6 @@
   height: 10vh;
   z-index: 9;
 }
-
-
 
 .uler {
   margin: 0;
@@ -65,6 +63,10 @@
     font-size: 30px;
     color: #d8d8d8;
   }
+  .icns:hover {
+    font-size: 30px;
+    color: #f9e426;
+  }
   .meduim {
     background-color: #000000;
     position: fixed;
@@ -76,7 +78,11 @@
     justify-content: space-between;
     margin: 0;
     z-index: 9;
-    box-shadow: rgba(95, 95, 95, 0.418) 0px 1px 1px, rgba(255, 255, 255, 0.07) 0px 2px 2px, rgba(219, 219, 219, 0.07) 0px 4px 4px, rgba(235, 235, 235, 0.07) 0px 8px 8px, rgba(206, 206, 206, 0.07) 0px 16px 16px;
+    box-shadow: rgba(95, 95, 95, 0.418) 0px 1px 1px,
+      rgba(255, 255, 255, 0.07) 0px 2px 2px,
+      rgba(219, 219, 219, 0.07) 0px 4px 4px,
+      rgba(235, 235, 235, 0.07) 0px 8px 8px,
+      rgba(206, 206, 206, 0.07) 0px 16px 16px;
   }
   .ulermd {
     padding: 10px;
