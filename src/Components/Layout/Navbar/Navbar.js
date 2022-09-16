@@ -51,22 +51,22 @@ const Navbar = () => {
         <ul className="ulermd">
           <li>
             <Link className="lier" to="/">
-              <HiHome size={27} />
+              <HiHome size={27}  className="icns" />
             </Link>
           </li>
           <li>
             <Link className="lier" to="/movies">
-              <MdLocalMovies size={27} />
+              <MdLocalMovies size={27}  className="icns" />
             </Link>
           </li>
           <li>
             <Link className="lier" to="/tvshows">
-              <RiMovieFill size={27} />
+              <RiMovieFill size={27} className="icns"  />
             </Link>
           </li>
           <li>
             <Link className="lier" to="/login">
-              <FaUserCircle size={27} />
+              <FaUserCircle size={27} className="icns"  />
             </Link>
           </li>
         </ul>
